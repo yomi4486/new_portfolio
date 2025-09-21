@@ -28,12 +28,6 @@ export function ContactSection() {
                 <span className="text-sm">CyberAgent TechLounge</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Badge variant="default" className="bg-green-500">
-                  在学中
-                </Badge>
-                <span className="text-sm">N高等学校 3年生</span>
-              </div>
-              <div className="flex items-center space-x-3">
                 <Badge variant="outline">開発中</Badge>
                 <span className="text-sm">E2EEチャットアプリ</span>
               </div>
