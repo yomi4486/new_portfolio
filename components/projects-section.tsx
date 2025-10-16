@@ -36,7 +36,6 @@ export function ProjectsSection() {
         "限られた時間での迅速なプロトタイピングとユーザーテスト",
         "GitHub ActionsによるCI/CDパイプラインの構築",
       ],
-      highlights: true,
       link: "https://topaz.dev/projects/ac1836241f2723a617eb",
     },
     {
