@@ -37,8 +37,6 @@ export function ProjectsSection() {
         "GitHub ActionsによるCI/CDパイプラインの構築",
       ],
       highlights: true,
-      highlightMessage:
-        "短時間での勝負の中、世界中のサイトを収集するクローラーと独自検索エンジンを自作し、学習コンテンツの発見性向上に貢献した点が評価され企業賞を受賞しました。ProjectLinksのデータ活用は限定的で、今後の拡張領域としています。",
       link: "https://topaz.dev/projects/ac1836241f2723a617eb",
     },
     {
