@@ -23,6 +23,25 @@ export function ProjectsSection() {
       highlightMessage: "従来のE2EEチャットアプリの匿名性による犯罪利用問題を、ローカルAIによる検知システムで解決。プライバシーを完全に保護しながら、安全性も確保する画期的なソリューション。",
     },
     {
+      title: "Progate × AWS × ProjectLinks ハッカソン（2025年9月）",
+      description:
+        "Progate、AWS、ProjectLinks（国土交通省）とのコラボハッカソン。ProjectLinksのオープンデータに触れる時間は限られていましたが、世界中の様々なサイトを収集するクローラーと独自の検索エンジン（ブラウザベースのプロトタイプ）を自作し、学習コンテンツの発見性向上に注力して企業賞を受賞しました。",
+      icon: MessageCircle,
+      status: "完成・企業賞を獲得",
+      technologies: ["Progate", "AWS", "TypeScript", "React", "Lambda", "DynamoDB", "Terraform", "クローラー", "独自検索エンジン"],
+      features: [
+        "世界中の様々なサイトを収集するクローラーを自作し、検索インデックスの元データを確保",
+        "独自の検索エンジンとブラウザベースのプロトタイプで学習コンテンツの発見性を改善",
+        "AWS上でのインフラ構築とTerraformによるIaC",
+        "限られた時間での迅速なプロトタイピングとユーザーテスト",
+        "GitHub ActionsによるCI/CDパイプラインの構築",
+      ],
+      highlights: true,
+      highlightMessage:
+        "短時間での勝負の中、世界中のサイトを収集するクローラーと独自検索エンジンを自作し、学習コンテンツの発見性向上に貢献した点が評価され企業賞を受賞しました。ProjectLinksのデータ活用は限定的で、今後の拡張領域としています。",
+      link: "https://topaz.dev/projects/ac1836241f2723a617eb",
+    },
+    {
       title: "ホットスタッパー（飲み物支出予測アプリ）",
       description:
         "気温・運動・曜日などの情報から、その日の飲み物支出を予測し、節約行動をサポートするアプリ。AWS・Python・Terraform・Flutterなどを活用し、インフラからフロントまで一元管理。",
