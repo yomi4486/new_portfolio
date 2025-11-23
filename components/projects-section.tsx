@@ -23,6 +23,37 @@ export function ProjectsSection() {
       highlightMessage: "従来のE2EEチャットアプリの匿名性による犯罪利用問題を、ローカルAIによる検知システムで解決。プライバシーを完全に保護しながら、安全性も確保する画期的なソリューション。",
     },
     {
+      title: "Prod Disco（アイデア・作品・趣味でつながるアプリ）",
+      description:
+        "作品・アイデアへの“共感”でつながる交流プラットフォーム。チャット、リアルタイムのタイムライン、マッチング、ユーザー管理などを備え、クリエイターや学生がアイデアや作品を共有・発見できるサービスです。",
+      icon: MessageCircle,
+      status: "完成・優秀賞を獲得",
+      technologies: [
+        "Expo (React Native)",
+        "Supabase",
+        "TypeScript",
+        "React",
+        "PostgreSQL",
+        "GitHub",
+        "GitHub Actions",
+        "Supabase Realtime",
+        "Supabase Migration",
+        "RLS"
+      ],
+      features: [
+        "チャット機能によるユーザー間のやり取り",
+        "リアルタイム性のあるタイムライン（Supabase Realtime Database）",
+        "アイデアや作品を通して人をマッチングさせる機能",
+        "ユーザー管理とセキュリティ（RLS）",
+        "Supabaseのみでバックエンドを完結させる設計",
+        "EASを使わずにExpoでネイティブビルドしTestFlightで公開"
+      ],
+      highlights: true,
+      highlightMessage:
+        "ほぼ全員が初心者のチームをまとめ上げ、Supabaseのみでリアルタイム性のあるステートフルなアプリを実現。EASを使わないネイティブビルド手法でTestFlight公開まで行い、開発・教育両面での貢献が評価され優秀賞を受賞しました。",
+      link: "https://topaz.dev/projects/08b931d4543927e63925",
+    },
+    {
       title: "Progate × AWS × ProjectLinks ハッカソン（2025年9月）",
       description:
         "Progate、AWS、ProjectLinks（国土交通省）とのコラボハッカソン。ProjectLinksのオープンデータに触れる時間は限られていましたが、世界中の様々なサイトを収集するクローラーと独自の検索エンジン（ブラウザベースのプロトタイプ）を自作し、学習コンテンツの発見性向上に注力して企業賞を受賞しました。",
