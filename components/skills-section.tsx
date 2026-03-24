@@ -3,13 +3,13 @@ import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Server, Code, Smartphone, Database, Shield, GitBranch, Palette, Shell, File } from "lucide-react"
 import {
-  SiTypescript, SiReact, SiFlutter, SiKubernetes, SiDocker, SiHtml5, SiCss3, SiJavascript, SiNodedotjs,
+  SiTypescript, SiReact, SiFlutter, SiKubernetes, SiDocker, SiHtml5, SiCss, SiJavascript, SiNodedotjs,
   SiQemu, SiVite, SiDart, SiFirebase, SiSupabase, SiPython, SiFastapi, SiFlask,
   SiPytorch, SiTensorflow, SiRust, SiC, SiGo, SiKeras, SiMqtt, SiJest, SiMysql, SiPostgresql,
-  SiCloudflare, SiVercel, SiAmazon, SiGooglecloud, SiExpo, SiGit, SiNextdotjs,
+  SiCloudflare, SiVercel, SiGooglecloud, SiExpo, SiGit, SiNextdotjs,
   SiZsh
 } from "react-icons/si"
-import { FaCogs, FaTools,FaVuejs } from "react-icons/fa"
+import { FaAws, FaCogs, FaTools, FaVuejs } from "react-icons/fa"
 
 export function SkillsSection() {
   const skillCategories = [
@@ -114,7 +114,7 @@ export function SkillsSection() {
             { name: "Kubernetes", icon: SiKubernetes },
             { name: "Docker", icon: SiDocker },
             { name: "HTML", icon: SiHtml5 },
-            { name: "CSS", icon: SiCss3 },
+            { name: "CSS", icon: SiCss },
             { name: "JavaScript", icon: SiJavascript },
             { name: "Node.js", icon: SiNodedotjs },
             { name: "QEMU", icon: SiQemu },
@@ -141,8 +141,7 @@ export function SkillsSection() {
             { name: "PostgreSQL", icon: SiPostgresql },
             { name: "Cloudflare", icon: SiCloudflare },
             { name: "Vercel", icon: SiVercel },
-            // AWS: SiAmazonを代用
-            { name: "AWS", icon: SiAmazon },
+            { name: "AWS", icon: FaAws },
             { name: "GCP", icon: SiGooglecloud },
             { name: "Expo", icon: SiExpo },
             { name: "Git", icon: SiGit },
