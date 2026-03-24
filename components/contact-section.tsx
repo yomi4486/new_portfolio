@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Github, Mail, Twitter } from "lucide-react"
+import { Github, Mail, Twitter, Target } from "lucide-react"
 import Link from "next/link"
 
 export function ContactSection() {
@@ -89,7 +89,7 @@ export function ContactSection() {
 
         <div className="mt-12 text-center">
           <div className="p-6 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-lg">
-            <h4 className="font-semibold text-amber-800 dark:text-amber-200 mb-2">🎯 現在の目標</h4>
+            <h4 className="font-semibold text-amber-800 dark:text-amber-200 mb-2">現在の目標</h4>
             <p className="text-sm text-amber-700 dark:text-amber-300">
               E2EEチャットアプリの完成とリリースを通じて、セキュリティとプライバシー保護の新しい標準を作ることを目指しています。
               この革新的なアプローチが、より安全で信頼できるコミュニケーション環境の実現に貢献できると信じています。

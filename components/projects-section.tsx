@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Github, Shield, MessageCircle, Cpu, Link as LinkIcon } from "lucide-react"
+import { Github, Shield, MessageCircle, Cpu, Link as LinkIcon, Rocket } from "lucide-react"
 import Link from "next/link"
 
 export function ProjectsSection() {
@@ -21,6 +21,41 @@ export function ProjectsSection() {
       ],
       highlights: true,
       highlightMessage: "従来のE2EEチャットアプリの匿名性による犯罪利用問題を、ローカルAIによる検知システムで解決。プライバシーを完全に保護しながら、安全性も確保する画期的なソリューション。",
+    },
+    {
+      title: "ラッシュの速さ比べか...",
+      description:
+        "自分自身がスタンドになれる、リアルタイム対戦ゲーム。Apple Watch の加速度センサーをトリガーに、iOSアプリ経由でRust製の低遅延同期サーバーと通信し、リアルタイムにラッシュバトルを体感できる、黄金の体験です。",
+      icon: MessageCircle,
+      status: "完成・最優秀賞を獲得！！！",
+      technologies: [
+        "Swift",
+        "Rust",
+        "TypeScript",
+        "React19",
+        "Vite7",
+        "Kubernetes",
+        "Agones",
+        "WebTransport",
+        "AppleWatch",
+        "CoreML"
+      ],
+      features: [
+        "Apple Watchの加速度センサーをトリガーにしたリアルタイムパンチバトル",
+        "Rust製の低遅延同期サーバーによる安定した対戦同期",
+        "WebTransportを活用したWeb UIでの対戦表示",
+        "CoreMLによるパンチ動作の機械学習ベースの認識",
+        "iOSネイティブ実装でHTTP/3とQUICプロトコル対応",
+        "ArgoCD（GitOps）による自動デプロイメント",
+        "GitHub Agentic Workflowでの自動PR更新・リポジトリ分析",
+        "Lambrollを使ったPreview URLの動的生成",
+        "マルチルート+S3backendによるセキュアなTerraformインフラ",
+        "ゼロトラストネットワーク設計"
+      ],
+      highlights: true,
+      highlightMessage:
+        "高校ラストのハッカソンで、Apple Watchの加速度センサーを活用したリアルタイム対戦ゲームを開発ッ！！Rust製の低遅延同期サーバーとSwift製のiOSクライアントを組み合わせ、黄金のゲーム体験を提供し、最優秀賞を獲得したッ！！！",
+      link: "https://topaz.dev/projects/978eda4ec50d77a73f15",
     },
     {
       title: "Prod Disco（アイデア・作品・趣味でつながるアプリ）",
@@ -263,7 +298,7 @@ export function ProjectsSection() {
 
                 {project.highlights && (
                   <div className="p-4 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 rounded-lg">
-                    <h4 className="font-semibold text-amber-800 dark:text-amber-200 mb-2">🚀 革新的なアプローチ</h4>
+                    <h4 className="font-semibold text-amber-800 dark:text-amber-200 mb-2 flex items-center gap-2"><Rocket className="h-5 w-5" />革新的なアプローチ</h4>
                     <p className="text-sm text-amber-700 dark:text-amber-300">
                       {project.highlightMessage}
                     </p>
