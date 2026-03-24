@@ -3,13 +3,13 @@ import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Server, Code, Smartphone, Database, Shield, GitBranch, Palette, Shell, File } from "lucide-react"
 import {
-  SiTypescript, SiReact, SiFlutter, SiKubernetes, SiDocker, SiHtml5, SiCss3, SiJavascript, SiNodedotjs,
+  SiTypescript, SiReact, SiFlutter, SiKubernetes, SiDocker, SiHtml5, SiCss, SiJavascript, SiNodedotjs,
   SiQemu, SiVite, SiDart, SiFirebase, SiSupabase, SiPython, SiFastapi, SiFlask,
   SiPytorch, SiTensorflow, SiRust, SiC, SiGo, SiKeras, SiMqtt, SiJest, SiMysql, SiPostgresql,
-  SiCloudflare, SiVercel, SiAmazon, SiGooglecloud, SiExpo, SiGit, SiNextdotjs,
+  SiCloudflare, SiVercel, SiGooglecloud, SiExpo, SiGit, SiNextdotjs,
   SiZsh
 } from "react-icons/si"
-import { FaCogs, FaTools,FaVuejs } from "react-icons/fa"
+import { FaAws, FaCogs, FaTools, FaVuejs } from "react-icons/fa"
 
 export function SkillsSection() {
   const skillCategories = [
@@ -114,7 +114,7 @@ export function SkillsSection() {
             { name: "Kubernetes", icon: SiKubernetes },
             { name: "Docker", icon: SiDocker },
             { name: "HTML", icon: SiHtml5 },
-            { name: "CSS", icon: SiCss3 },
+            { name: "CSS", icon: SiCss },
             { name: "JavaScript", icon: SiJavascript },
             { name: "Node.js", icon: SiNodedotjs },
             { name: "QEMU", icon: SiQemu },
@@ -141,8 +141,7 @@ export function SkillsSection() {
             { name: "PostgreSQL", icon: SiPostgresql },
             { name: "Cloudflare", icon: SiCloudflare },
             { name: "Vercel", icon: SiVercel },
-            // AWS: SiAmazonを代用
-            { name: "AWS", icon: SiAmazon },
+            { name: "AWS", icon: FaAws },
             { name: "GCP", icon: SiGooglecloud },
             { name: "Expo", icon: SiExpo },
             { name: "Git", icon: SiGit },
@@ -201,20 +200,20 @@ export function SkillsSection() {
         <div className="mt-12 text-center">
           <Card className="border-0 shadow-lg bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-4">特別な経験</h3>
+              <h3 className="text-2xl font-bold mb-4">あぴーるぽいんと</h3>
               <div className="grid md:grid-cols-2 gap-6 text-left">
                 <div>
                   <h4 className="font-semibold mb-2">🧠 機械学習・AI</h4>
                   <p className="text-sm text-slate-600 dark:text-slate-300">
                     TensorFlow、Kerasを用いた畳み込みニューラルネットワークの実装経験。
-                    現在はローカルSLMをチャットアプリに統合する革新的なプロジェクトに取り組み中。
+                    現在はローカルSLMをチャットアプリに統合するプロジェクトに取り組み中。
                   </p>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">💻 低レベル開発</h4>
                   <p className="text-sm text-slate-600 dark:text-slate-300">
                     QEMUを使用したOS開発経験。ハードウェアレベルからアプリケーションレベルまで、
-                    幅広い技術領域への深い理解を持つ。
+                    幅広い技術領域を触っています。（最近低レイヤーさわれてない...!）
                   </p>
                 </div>
               </div>

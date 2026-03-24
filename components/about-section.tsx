@@ -47,7 +47,7 @@ export function AboutSection() {
               </p>
               <p className="text-slate-600 dark:text-slate-300">
                 Gitを使った協調開発やモダンな開発手法も学んでいます。
-                また、過去にはOS開発にも挑戦するなど、低レベルから高レベルまで幅広い技術に興味を持っています。
+                また、過去にはOS開発にも挑戦するなど、低レベルから高レベルまで色々な技術に興味を持っています。
               </p>
               <p className="text-slate-600 dark:text-slate-300">
                 ロードバイクやカメラが趣味。ヒトリエが好きです。最近ギターに興味を持ち始めました。
