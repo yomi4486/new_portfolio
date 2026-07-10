@@ -43,7 +43,7 @@ export function AboutSection() {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-slate-600 dark:text-slate-300">
-                セキュリティやインフラ、SREなどに興味を持っています。高校3年生です。
+                セキュリティやインフラ、SREなどに興味を持っています。18歳です。
               </p>
               <p className="text-slate-600 dark:text-slate-300">
                 Gitを使った協調開発やモダンな開発手法も学んでいます。
