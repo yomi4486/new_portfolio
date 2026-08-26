@@ -3,6 +3,13 @@ import { Badge } from "@/components/ui/badge"
 import { Code, Server, Cloud, Brain } from "lucide-react"
 
 export function AboutSection() {
+  const birthDate = new Date(2007, 7, 7)
+  const today = new Date()
+  const hasHadBirthdayThisYear =
+    today.getMonth() > birthDate.getMonth() ||
+    (today.getMonth() === birthDate.getMonth() && today.getDate() >= birthDate.getDate())
+  const age = today.getFullYear() - birthDate.getFullYear() - (hasHadBirthdayThisYear ? 0 : 1)
+
   const highlights = [
     {
       icon: Code,
@@ -43,7 +50,7 @@ export function AboutSection() {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-slate-600 dark:text-slate-300">
-                セキュリティやインフラ、SREなどに興味を持っています。18歳です。
+                セキュリティやインフラ、SREなどに興味を持っています。{age}歳です。
               </p>
               <p className="text-slate-600 dark:text-slate-300">
                 Gitを使った協調開発やモダンな開発手法も学んでいます。
